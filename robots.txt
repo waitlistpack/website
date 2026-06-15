@@ -1,0 +1,15 @@
+# robots.txt — WaitlistPack marketing site
+#
+# This is the standalone public website (landing, privacy, terms). Every
+# page here is public marketing content, so the whole site is crawlable.
+# The authenticated app (dashboard, auth, API) lives on a separate origin
+# and ships its own robots.txt.
+#
+# AI / LLM crawlers are explicitly welcome — WaitlistPack is designed to be
+# agent-discoverable.
+
+User-agent: *
+Allow: /
+
+# Sitemap will be added once the marketing site grows beyond a few pages.
+# Sitemap: https://waitlistpack.com/sitemap.xml
